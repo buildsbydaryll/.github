@@ -8,6 +8,7 @@ The projects of Daryllson Jumaoas ([@22104323](https://github.com/22104323) on G
 |---|---|
 | [server-hardening](https://github.com/buildsbydaryll/server-hardening) | Two Ansible playbooks for a fresh Ubuntu or Debian VPS: one locks it down (key-only SSH, a deny-by-default firewall, automatic security updates, safer kernel and Docker settings), the other verifies every change on the server without changing anything. Its test runs both on a throwaway virtual machine. |
 | [case-studies](https://github.com/buildsbydaryll/case-studies) | Write-ups of real problems from production work: what went wrong, what I chose and why, how I tested it, and what I traded away. |
+| [reliability-labs](https://github.com/buildsbydaryll/reliability-labs) | Runnable labs that start from a backend defect, show it with a failing test, and fix it. The first is a FastAPI booking adapter that double-booked when the provider timed out, fixed with an idempotency key in PostgreSQL. One command runs it, and CI runs it on every push. |
 
 ## How I work
 
